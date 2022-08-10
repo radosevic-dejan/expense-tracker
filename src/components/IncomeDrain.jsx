@@ -13,12 +13,12 @@ export const IncomeDrain = () => {
   return (
     <div className='flex justify-between mt-4 px-2'>
         <div>
-            <h3>Income</h3>
+            <h3 className="font-bold text-green-600 mb-2">Income</h3>
             <p>{income}</p>
         </div>
 
         <div>
-            <h3>Drain</h3>
+            <h3 className="font-bold text-orange-600 mb-2">Drain</h3>
             <p>{drain}</p>
         </div>
     </div>

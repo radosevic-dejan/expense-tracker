@@ -2,9 +2,7 @@ import { createContext, useReducer } from 'react';
 import { reducer } from './reducer';
 
 const initialState = {
-    transactions: [
-      {id: 0, text: 'Flower', amount: -20},
-     ]
+    transactions: []
 };
 
 export const GlobalContext = createContext(initialState);
